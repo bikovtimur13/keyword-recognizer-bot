@@ -43,7 +43,11 @@ const start = () => {
             return bot.sendMessage(chatId, 'Test!');
         }
 
-        console.log(msg)
+        if(data === 'group_data'){
+            //TODO
+        }
+
+
 
     });
 };
